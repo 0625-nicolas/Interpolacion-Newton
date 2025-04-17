@@ -14,4 +14,3 @@ public class Aplicacion {
         System.out.println("Interpolación de Newton en x = " + valorInterpolar + ": " + resultado);
     }
 }
-

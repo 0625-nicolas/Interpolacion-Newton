@@ -1,0 +1,12 @@
+services:
+  spring-jni:
+    image: 'nicoguti0625/analisis-service:latest'
+    ports:
+      - '8083:8080'
+    networks:
+      - red-backend-app
+networks:
+  red-backend-app:
+    driver: bridge
+
+
